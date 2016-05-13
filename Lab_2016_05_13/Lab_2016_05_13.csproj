@@ -106,6 +106,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cat.html" />
+    <Content Include="dog.html" />
+    <Content Include="fish.html" />
+    <Content Include="imges\Anim.JPG" />
+    <Content Include="imges\cat.JPG" />
+    <Content Include="imges\dog.JPG" />
+    <Content Include="imges\Fish.JPG" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
