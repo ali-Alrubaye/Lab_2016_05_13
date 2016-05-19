@@ -109,9 +109,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cat.html" />
-    <Content Include="dog.html" />
-    <Content Include="fish.html" />
+    <Content Include="html\cat.html" />
+    <Content Include="html\dog.html" />
+    <Content Include="html\fish.html" />
     <Content Include="imges\cat.JPG" />
     <Content Include="imges\dog.JPG" />
     <Content Include="imges\Fish.JPG" />

@@ -55,12 +55,29 @@ h1 {
     background-color:#f58233;
 }
 h3 {
-    color:white;
+    color:red;
     padding-top:100px;
 }
 
+.top-content{
+	
+	background-color: #fff;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
 article{
 	display: block;
+    font-family:Arial,Tahoma;
+    font-size:90%;
+}
+footer{
+	font-size: 90%;
+	color: #999;
+	font-style: italic;
+	margin-top: 10px;
 }
 aside{
 	width: 15%;
@@ -72,4 +89,17 @@ aside{
 	border-radius: 5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
+}
+.footer{
+	margin: 20pc auto;
+	float: left;
+	width:100%;
+	background-color: #e74c3c;
+	height: 60px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;	
+}
+.footer p{
+    color:white;
 }
