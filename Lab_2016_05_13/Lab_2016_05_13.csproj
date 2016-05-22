@@ -94,9 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\style.css" />
-    <Content Include="imges\arabian_horse.jpg" />
-    <Content Include="imges\images0Z6KMRHA.jpg" />
+    <Content Include="dator.html" />
+    <Content Include="imges\net.PNG" />
+    <Content Include="imges\untitled.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,20 +109,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="html\cat.html" />
-    <Content Include="html\dog.html" />
-    <Content Include="html\fish.html" />
-    <Content Include="imges\cat.JPG" />
-    <Content Include="imges\dog.JPG" />
-    <Content Include="imges\Fish.JPG" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
