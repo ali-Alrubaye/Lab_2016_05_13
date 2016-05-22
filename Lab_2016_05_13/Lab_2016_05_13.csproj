@@ -94,8 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio.html" />
     <Content Include="dator.html" />
+    <Content Include="imges\Media-Markt.PNG" />
     <Content Include="imges\net.PNG" />
+    <Content Include="imges\Skärmklipp.PNG" />
     <Content Include="imges\untitled.png" />
     <Content Include="Media\Maldive3.mp4" />
     <Content Include="Media\MrBean.mp4" />
