@@ -94,12 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="imges\Arts_et_Metiers.jpg" />
     <Content Include="pages\audio.html" />
     <Content Include="pages\dator.html" />
     <Content Include="imges\Media-Markt.PNG" />
     <Content Include="imges\net.PNG" />
     <Content Include="imges\Skärmklipp.PNG" />
-    <Content Include="imges\untitled.png" />
     <Content Include="Media\Maldive3.mp4" />
     <Content Include="Media\MrBean.mp4" />
     <Content Include="Media\NeonHeart-EndlessGrace.mp3" />

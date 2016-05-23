@@ -1,80 +1,102 @@
-/* Start Global*/
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-}
 body{
-	font-family: arial, tahoma
+    background-color:whitesmoke;
+    font-size: 87%;
+	font-family: arial, tahoma;
+    line-height:1.5;
+    text-align:left;      
 }
-/* End Global*/
+
+a {text-decoration:none;}
+a:link, a:visited {color:#e74c3c;}
+a:hover, a:active {color:#f58233;}
+.body{
+    margin:10px auto;
+    width:70%;
+    clear:both;
+}
 /* Start Header*/
-.main h1{
+.mainContent {
+    width:70%;
+    float:left;
+}
+.mainheader h1{
+    width:100%;
 	background-color: #333;
 	color:#ddd;
-	padding: 20px;
+	padding: 20px 0;
 	text-align: center;
 }
-nav{
-	background-color: #ddd ;
+.mainheader nav{
+    width:100%;
+	background-color: #e74c3c;
+    height:40px;
+    border-radius:5px;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+    
  }
-nav ul{
-	padding: 20px;
+.mainheader nav ul{
+	list-style:none;
 	text-align: center;
+    margin:0 auto;
 }
-nav ul li{
+.mainheader nav ul li{
 	display: inline-block;
 }
-nav ul li:after
-{
-	content: "|";
-	
+
+.mainheader a:link , .mainheader a:visited{
+    color:white;
+    padding:10px 40px;
+    display:inline-block;
+    height:20px;
 }
-nav ul li:last-child:after
-{
-	content: "";
+.mainheader a:hover, .mainheader a:active{ 
+    color:white;
+    Background-color:#f58233;
 }
-.main a:link , .main a:visited{color:darkblue;}
-.main a:active, .main a:active{ color:blue}
 /* End Header*/
 /* Start Article*/
-.post{
-	width:70%;
-	float: left;
+.top-content {
+    background-color:#fff;
+    padding:3%;
+    margin-top:3%;
+     border-radius:5px;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 }
-.post {
-	width: 70%;
-	float: left;
+.post-content{
+    display:block;
 }
-.post article{
-	padding:20px;
-	border: 1px solid #CCC;
-	margin: 20px;
-}
- .post article{
-	background-color: #e2e2e2;
-	padding: 10px;
-}
+
 /* End Article*/
 /* Start sidebar*/
  .aside {
-    background-color:#ddd;
+    background-color:#fff;
     color:#333;
-    padding:10px;
-    margin: 20px auto;
+    padding:2%;
+    margin: 2% 0 0 2%;
     float:left;
-    width:22%;
-   
+    width:28%;
+    border-radius:5px;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 }
+ .aside a img{
+     width:100%;
+ }
 /* Start sidebar*/
 /* Start Footer*/
-footer{
+.footer{
 	background-color: #333;
-	color: #ddd;
-	text-align: center;
-	padding: 10px;
+    padding: 10px;
 	clear: both;
+    width:100%;
+	 border-radius:5px;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.footer p{
+    color: #ddd;
+    text-align: center;
 }
 /* Start Footer*/
