@@ -94,15 +94,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\Asus.PNG" />
-    <Content Include="images\Asus_amd.PNG" />
-    <Content Include="images\Asus_N2840.PNG" />
-    <Content Include="images\HP-laptop .PNG" />
-    <Content Include="images\iphone5s.PNG" />
-    <Content Include="images\iphone6.PNG" />
-    <Content Include="images\iphone6plus.png" />
-    <Content Include="images\Macbook.PNG" />
-    <Content Include="images\Msi.PNG" />
+    <Content Include="images\Asus.jpg" />
+    <Content Include="images\Asus_amd.jpg" />
+    <Content Include="images\Asus_N2840.jpg" />
+    <Content Include="images\HP-laptop.jpg" />
+    <Content Include="images\iphone5s.jpg" />
+    <Content Include="images\iphone6.jpg" />
+    <Content Include="images\iphone6plus.jpg" />
+    <Content Include="images\Macbook.jpg" />
+    <Content Include="images\Msi.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -118,6 +118,7 @@
     <Content Include="css\style.css" />
     <Content Include="index.html" />
     <Content Include="pages\order.html" />
+    <Content Include="pages\recipe.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />

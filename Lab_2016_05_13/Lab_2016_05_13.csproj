@@ -95,7 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imges\Arts_et_Metiers.jpg" />
-    <Content Include="iphone6plus.png" />
     <Content Include="pages\audio.html" />
     <Content Include="pages\dator.html" />
     <Content Include="imges\Media-Markt.PNG" />
