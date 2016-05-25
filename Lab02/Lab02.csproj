@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AD616479-40FF-42EC-9FE0-B9F049760F72}</ProjectGuid>
+    <ProjectGuid>{14D4DF5C-DD9A-4543-A909-F6B52EA51087}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab_2016_05_13</RootNamespace>
-    <AssemblyName>Lab_2016_05_13</AssemblyName>
+    <RootNamespace>Lab02</RootNamespace>
+    <AssemblyName>Lab02</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,24 +94,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="imges\Arts_et_Metiers.jpg" />
-    <Content Include="iphone6plus.png" />
-    <Content Include="pages\audio.html" />
-    <Content Include="pages\dator.html" />
-    <Content Include="imges\Media-Markt.PNG" />
-    <Content Include="imges\net.PNG" />
-    <Content Include="imges\Skärmklipp.PNG" />
-    <Content Include="Media\Maldive3.mp4" />
-    <Content Include="Media\MrBean.mp4" />
-    <Content Include="Media\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="images\Asus.PNG" />
+    <Content Include="images\Asus_amd.PNG" />
+    <Content Include="images\Asus_N2840.PNG" />
+    <Content Include="images\HP-laptop .PNG" />
+    <Content Include="images\iphone5s.PNG" />
+    <Content Include="images\iphone6.PNG" />
+    <Content Include="images\iphone6plus.png" />
+    <Content Include="images\Macbook.PNG" />
+    <Content Include="images\Msi.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Media\Maldive3.ogv" />
-    <Content Include="Media\Maldive3.webm" />
-    <Content Include="Media\MrBean.ogv" />
-    <Content Include="Media\MrBean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -120,11 +115,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
     <Content Include="index.html" />
+    <Content Include="pages\order.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="style\style.css" />
-    <Content Include="pages\video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -144,9 +139,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>19372</DevelopmentServerPort>
+          <DevelopmentServerPort>4899</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:19372/</IISUrl>
+          <IISUrl>http://localhost:4899/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
