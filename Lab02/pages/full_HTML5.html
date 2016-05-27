@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="sv-se">
+    <title>Computer Markt</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ali" />
+    <meta name="description" content="Computers" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Computer for all</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="full_HTML5.html">Full HTML5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form>
+            <fieldset>
+                <legend>User info:</legend>
+                <label>First name</label>
+                <input type="text" name="First name" minlength="3" maxlength="9" title="Three or more characters" />
+                <label>Last name</label>
+                <input type="text" name="last name" minlength="3" maxlength="9" title="Three or more characters" />
+                <label>Email:</label>
+                <input type="email" name="email" required="required" />
+                <label>Password:</label>
+                <input type="password" name="pw" pattern=".{6,}" title="six or more characters" required="required" />
+                <label>Zip:</label>
+                <input type="number" name="zip" />
+                <label>City:</label>
+                <input type="text" name="City" />
+            </fieldset>
+            <input type="submit" name="submit" />
+        </form>
+        <form>
+            <fieldset>
+                <legend>User info:</legend>
+                <label>First name</label>
+                <input type="text" name="First name" minlength="3" maxlength="9" title="Three or more characters" />
+                <label>username,</label>
+                <input type="text" name="username," minlength="3" maxlength="9" title="Three or more characters" />
+                <label>Social security number:</label>
+                <input type="number" name="Social security number" required="required" />
+                <label>Phone Number:</label>
+                <input type="tel" name="phonenumber" pattern="[0-9]{10}" />
+                <label>Mobile Number:</label>
+                <input type="tel" name="mobilenumber" pattern="[0-9]{10}" />
+            </fieldset>
+            <input type="submit" name="submit" />
+        </form>
+    </div>
+    <footer class="footer">
+        <p> Copyright 2016 &copy; All Right Reserved</p>
+    </footer>
+</body>
+</html>

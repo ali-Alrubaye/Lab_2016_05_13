@@ -15,6 +15,7 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="order.html">Order</a></li>
                 <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="full_HTML5.html">Full HTML5</a></li>
             </ul>
         </nav>
     </header>
@@ -143,90 +144,61 @@
         </table>
     </div>
     <div>
-        <form action="recipe.html" method="get" autocomplete="off">
+        <form  method="get" autocomplete="off">
     <table>
         <tr>
             <td>
                 <fieldset id="userinfo">
                     <legend>User Info</legend>
-                    <label>
-                        Username:
-                        <input type="text" name="username"  autofocus/>
-                    </label>
-                    <label>
-                        Email:
-                        <input type="email" name="email" required="required" />
-                    </label>
-                    <label>
-                        Password:
-                        <input type="password" name="pw" pattern=".{6,}" title="six or more characters" required="required" />
-                    </label>
+                    <label>Username:</label>
+                        <input type="text" name="username" placeholder="Type Yor Username" autofocus/>
+                    <label>Email:</label>
+                        <input type="email" name="email" placeholder="Type Yor Email" required="required" />
+                    <label>Password:</label>
+                        <input type="password" name="pw" pattern=".{6,}" placeholder="Type Yor Password" title="six or more characters" required="required" />
                 </fieldset>
             </td>
         </tr>
         <tr>
             <td>
-
                 <fieldset id="delivery">
                     <legend>Delivery address</legend>
-                    <label>
-                        Name:
+                    <label>Name:</label>
                         <input type="text" name="name" />
-                    </label>
-                    <label>
-                        Street:
+                    <label>Street:</label>
                         <input type="text" name="street" />
-                    </label>
-                    <label>
-                        Zip:
+                    <label>Zip:</label>
                         <input type="number" name="zip" />
-                    </label>
-                    <label>
-                        Town:
-                        <input type="text" name="town" />
-                    </label>
-                    <label>
-                        Phone Number:
+                    <label>City:</label>
+                        <input type="text" name="City" />
+                    <label>Phone Number:</label>
                         <input type="tel" name="phonenumber" pattern="[0-9]{10}" />
-                    </label>
                 </fieldset>
-
             </td>
         </tr>
         <tr>
             <td>
                 <fieldset id="payment">
                     <legend>Payment address</legend>
-                    <label>
-                        Name:
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        Street:
-                        <input type="text" name="street" />
-                    </label>
-                    <label>
-                        Zip:
-                        <input type="number" name="zip" />
-                    </label>
-                    <label>
-                        Town:
-                        <input type="text" name="town" />
-                    </label>
-                    <label>
-                        Phone Number:
-                        <input type="tel" name="phonenumber" />
-                    </label>
-                    <label>
-                        Project Number:
-                        <input type="number" name="projectnumber" />
-                    </label>
+                    <label>Name:</label><br>
+                        <input type="text" name="name" /><br>
+                    <label>Street:</label><br >
+                        <input type="text" name="street" /><br>
+                    <label>Zip: </label><br >
+                        <input type="number" name="zip" /><br>
+                    <label>City:</label><br >
+                        <input type="text" name="City" /><br>
+                    <label>Phone Number:</label><br >
+                        <input type="tel" name="phonenumber" pattern="[0-9]{10}" /><br>
+                    <label> Project Number:</label><br>
+                        <input type="number" name="projectnumber" /><br>
                 </fieldset>
-                <input type="submit" name="submit" value="Order" />
-
+                <input type="submit" name="submit" value="Order" /><br>
+                <input type="submit" formaction="recipe.html" value="recipe" />
+                <input type="submit" formaction="recipe.html" formnovalidate value="Sumbmit Without Validation" />
+                <input type="submit" formtarget="_blank" value="Submit In New Window" />
             </td>
         </tr>
-
     </table>
 </form>
     </div>
