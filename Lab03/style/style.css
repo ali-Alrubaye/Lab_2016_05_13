@@ -1,0 +1,130 @@
+﻿body {
+    background-color: whitesmoke;
+    font-family: Arial;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:link, a:visited {
+        color: #e74c3c;
+    }
+
+    a:hover, a:active {
+        color: #f58233;
+    }
+
+.body {
+    margin: 10px auto;
+    width: 70%;
+    clear: both;
+}
+/*----------------------MAIN HEADER ----------------------*/
+.mainheader h1 {
+    background-image: url('../images/imagesTMNAJQMI.jpg');
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 1px;
+    height: 86px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainheader nav {
+    background-color: #e74c3c;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+    .mainheader nav ul {
+        text-align: center;
+        list-style: none;
+        margin: 0 auto;
+    }
+
+        .mainheader nav ul li {
+            display: inline;
+        }
+
+.mainheader a:link, .mainheader a:visited {
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20px;
+}
+
+.mainheader a:hover, .mainheader a:active {
+    color: white;
+    background-color: #f58233;
+    text-shadow: none;
+}
+/*----------------------footer ----------------------*/
+.footer {
+    color: #fff;
+    margin: 5px auto;
+    float: left;
+    width: 100%;
+    background-color: #e74c3c;
+    height: 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+/*----------------------For Mobile ----------------------*/
+@media screen and (max-width: 480px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+    /*----------------------MAIN HEADER Mobile ----------------------*/
+
+    .mainheader nav {
+        height: 160px;
+    }
+
+        .mainheader nav ul {
+            width: 100%;
+            padding: 0;
+        }
+
+            .mainheader nav ul li {
+                display: inline;
+            }
+
+    .mainheader a:link, .mainheader a:visited {
+        display: block;
+    }
+
+    .mainheader a:hover, .mainheader a:active {
+        color: white;
+        background-color: #f58233;
+        text-shadow: none;
+    }
+
+    /*----------------------footer ----------------------*/
+.footer {
+    margin: 2% 0;
+   
+   
+}
+
+ 
+}
+/*----------------------For Ipad ----------------------*/
+@media screen and (max-width: 768px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+    /*----------------------MAIN HEADER Mobile ----------------------*/
+    .mainheader nav {
+        font-size: 80%;
+    }
+}
