@@ -54,3 +54,61 @@
     transform:scale(2,2);
     font-size:22px;
 }
+
+/*Scale03---& Translate(X,Y)*/
+.container03{
+    width:200px;
+    background-color:#EEE;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    height:196px;
+    transform:rotate(-10deg); 
+    overflow:visible;
+}
+.scale03{
+    background-color:#ffd800;
+    color:#1617bb;
+    text-align:center;
+    height:176px;
+    font-family: 'Bilbo', cursive;
+     font-size:43px;
+   overflow:hidden;
+  padding: 0 10px;
+  transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+ }
+.scale03:hover{
+    -webkit-transform:translateY(-160px) scale(1.2) rotate(30deg);
+    transform:translateY(-160px) scale(1.2) rotate(30deg);
+     font-size:28px;
+}
+
+/*--Scale04--Transform Matrix (ScaleX, SkewY, SkewX, ScaleY, TeanslateX, TranslateY )--*/
+.container04{
+    width:200px;
+    background-color:#EEE;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    height:196px;
+    transform:rotate(-10deg); 
+    overflow:visible;
+}
+.scale04{
+    background-color:#ffd800;
+    color:#1617bb;
+    text-align:center;
+    height:176px;
+    font-family: 'Bilbo', cursive;
+     font-size:43px;
+   overflow:hidden;
+  padding: 0 10px;
+  transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+ }
+.scale04:hover{
+    transform: matrix(2,0.5, -0.5,2, 300, 100);
+   -webkit-transform: matrix(2,0.5, -0.5,2, 300, 100);
+  font-size:22px;
+}
