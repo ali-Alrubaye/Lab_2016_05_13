@@ -1,0 +1,56 @@
+﻿*{
+    box-sizing:border-box;
+}
+.container{
+    width:200px;
+    background-color:#EEE;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    height:192px;
+    transform:rotate(10deg); 
+}
+.scale{
+    background-color:#080;
+    color:#FFF;
+    text-align:center;
+    height:165px;
+    font-family: 'Architects Daughter', cursive;
+     font-size:34px;
+   overflow:hidden;
+   text-overflow:clip;
+
+ }
+.scale:hover{
+    -webkit-transform: scale(2,2);
+    transform:scale(2,2);
+    font-size:22px;
+}
+
+/*Scale02*/
+.container02{
+    width:200px;
+    background-color:#EEE;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    height:196px;
+    transform:rotate(-10deg); 
+}
+.scale02{
+    background-color:#ffd800;
+    color:#1617bb;
+    text-align:center;
+    height:176px;
+    font-family: 'Bilbo', cursive;
+     font-size:43px;
+   overflow:hidden;
+  padding: 0px 10px;
+
+
+ }
+.scale02:hover{
+    -webkit-transform: scale(2,2);
+    transform:scale(2,2);
+    font-size:22px;
+}

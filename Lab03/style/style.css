@@ -1,21 +1,16 @@
-﻿body {
+﻿*{
+    box-sizing:border-box;
+}
+body {
     background-color: whitesmoke;
     font-family: Arial;
     line-height: 1.5;
     text-align: left;
 }
 
-a {
-    text-decoration: none;
-}
-
-    a:link, a:visited {
-        color: #e74c3c;
-    }
-
-    a:hover, a:active {
-        color: #f58233;
-    }
+a { text-decoration: none;}
+a:link, a:visited { color: #e74c3c;}
+a:hover, a:active {color: #f58233; }
 
 .body {
     margin: 10px auto;
@@ -50,14 +45,14 @@ a {
     }
 
         .mainheader nav ul li {
-            display: inline;
+            display: inline-block;
         }
 
 .mainheader a:link, .mainheader a:visited {
     color: white;
     padding: 10px 40px;
     display: inline-block;
-    height: 20px;
+    height: 40px;
 }
 
 .mainheader a:hover, .mainheader a:active {

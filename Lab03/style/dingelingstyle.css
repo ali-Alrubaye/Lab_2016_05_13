@@ -1,0 +1,82 @@
+﻿*{
+    box-sizing:border-box;
+}
+.body{
+    width:70%;
+    
+}
+#postit01{
+  background-color:yellow;
+  margin:5% 5%;
+  width:190px;
+  height:180px;
+  overflow:hidden;
+  transform:rotate(10deg);
+  text-align:center;
+}
+#postit01 p{
+  width:70%;
+  color:black;
+  padding:5px 15px;
+  font-size:33px;
+  font-family: 'Bilbo', cursive;
+  
+}
+#postit01:hover , #postit02:hover {
+    transition:all;
+    width:300px;
+    height:300px;
+    overflow:visible;
+}
+/*Box Shadow: Horizontal Shadow| Vertical Shadow | Blur | Spread | Color | Inset, Outset;*/
+/*---Box Shadow----*/
+#postit01{
+    box-shadow:-5px -5px 8px #808080,
+                5px 5px 8px #808080;
+}
+
+/*---Postit02---*/
+#postit02 {
+  background-color:yellow;
+  margin:5% 5%;
+  width:199px;
+  height:171px;
+  overflow:hidden;
+  transform:rotate(10deg);
+  text-align:center;
+}
+#postit02 p{
+  width:70%;
+  color:black;
+  padding:5px 15px;
+  font-size:23px;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow:1px 1px 5px #ff0000;
+}
+
+/*---Postit03---*/
+#postit03 {
+      background-color: yellow;
+    margin: -42% 14%;
+    width: 199px;
+    height: 171px;
+    overflow: hidden;
+    transform: rotate(10deg);
+    text-align: center;
+    float: right;
+    position: relative;
+}
+#postit03 p{
+  width:70%;
+  color:black;
+  padding:5px 15px;
+  font-size:23px;
+  font-family: 'Architects Daughter', cursive;
+}
+ #postit03:hover {
+    transition:all;
+    width:500px;
+    height:400px;
+    overflow:visible;
+    display:block;
+}
