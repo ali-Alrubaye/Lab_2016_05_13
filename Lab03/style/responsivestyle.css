@@ -13,7 +13,7 @@ a {text-decoration: none;}
 a:link, a:visited { color: #e74c3c;}
 a:hover, a:active {color: #f58233;}
 
-.body {
+.wrap {
     margin: 10px auto;
     width: 70%;
     clear: both;
@@ -36,8 +36,6 @@ a:hover, a:active {color: #f58233;}
     background-color: #e74c3c;
     height: 40px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
 }
 
     .mainheader nav ul {
@@ -130,7 +128,7 @@ iframe {
     .theSidebar {width: 94%; }
 }
 /*----------------------For Mobile ----------------------*/
-@media screen and (min-width: 360px) and (max-width: 500px)  {
+@media screen and (min-width: 360px) and (max-width: 600px)  {
     .body {
         width: 90%;
         font-size: 95%;
@@ -177,7 +175,7 @@ iframe {
     }
 }
 /*----------------------For Ipad ----------------------*/
-@media screen and (min-width: 502px) and (max-width:868px) {
+@media screen and (min-width: 602px) and (max-width:868px) {
     .body {
         width: 90%;
         font-size: 95%;
