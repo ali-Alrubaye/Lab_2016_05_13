@@ -98,12 +98,51 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="icons\1465102713_email.png" />
+    <Content Include="icons\1465102743_facebook.png" />
+    <Content Include="icons\1465102756_google-plus.png" />
+    <Content Include="icons\1465102781_pinterest.png" />
+    <Content Include="icons\1465102880_twitter.png" />
+    <Content Include="icons\1465102899_rss-feeds.png" />
+    <Content Include="icons\article_icon_5661783b32e40.jpg" />
+    <Content Include="icons\content_256.png" />
+    <Content Include="icons\untitled.png" />
+    <Content Include="icons\untitled02.png" />
+    <Content Include="imagestrans\01.png" />
+    <Content Include="imagestrans\02.png" />
+    <Content Include="imagestrans\03.png" />
+    <Content Include="imagestrans\04.png" />
+    <Content Include="imagestrans\05.png" />
+    <Content Include="imagestrans\06.png" />
+    <Content Include="imagestrans\07.png" />
+    <Content Include="imagestrans\08.png" />
+    <Content Include="imagestrans\09.png" />
+    <Content Include="imagestrans\10.png" />
     <Content Include="images\0101.png" />
     <Content Include="images\02.png" />
     <Content Include="images\03.png" />
     <Content Include="images\04.png" />
+    <Content Include="images\Backgrounds.png" />
+    <Content Include="images\blacktip-reef-shark-4930.jpg" />
+    <Content Include="images\coco.PNG" />
+    <Content Include="images\onlyDiver.png" />
+    <Content Include="images\onlymoray.png" />
+    <Content Include="images\onlynursechark.png" />
+    <Content Include="images\onlystonefish.png" />
+    <Content Include="images\statistics.html" />
+    <Content Include="images\subscribe.html" />
+    <Content Include="images_avatar\large_3171.png" />
+    <Content Include="images_avatar\large_3194.png" />
+    <Content Include="images_avatar\large_3206.png" />
+    <Content Include="images_avatar\Opi51c74ead38850.png" />
     <Content Include="index.html" />
+    <Content Include="media\Maldive3.mp4" />
+    <Content Include="media\vatten.mp3" />
+    <Content Include="our_clients\ECutbildning.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -116,7 +155,22 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="pages\about.html" />
+    <Content Include="pages\clients.html" />
+    <Content Include="pages\contact.html" />
+    <Content Include="pages\dreamphotos.html" />
+    <Content Include="pages\add\footer.html" />
+    <Content Include="pages\add\price_table.html" />
+    <Content Include="pages\add\team.html" />
+    <Content Include="pages\add\Testimonials.html" />
+    <Content Include="pages\game.html" />
+    <Content Include="pages\photo.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-2.2.3.js" />
@@ -133,15 +187,20 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\plugins.js" />
+    <Content Include="style\blueTheme.css" />
+    <Content Include="style\coloeTheme.css" />
+    <Content Include="style\defaultTheme.css" />
+    <Content Include="style\Dreamphotos.css" />
+    <Content Include="style\gams.css" />
+    <Content Include="style\mediaQuery.css" />
+    <Content Include="style\purpleTheme.css" />
     <Content Include="style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

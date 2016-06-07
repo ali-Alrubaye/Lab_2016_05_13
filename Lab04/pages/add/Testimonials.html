@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="../viewport" content="width=device-width, initial-scale=1">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../style/style.css" rel="stylesheet" />
+    <link href="style/mediaQuery.css" rel="stylesheet" />
+    <link href="../style/defaultTheme.css" rel="stylesheet" />
+    <style>
+        /*Start Scetion Testimonials*/
+        .Testimonials
+         {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+            .Testimonials h1 
+            {
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .Testimonials .lead 
+            {
+                line-height: 2em;
+                margin-bottom:10px;
+            }
+            .Testimonials span
+            {
+                font-size:18px;
+                font-weight:bold;
+            }
+            .Testimonials .carousel-inner
+            {
+                min-height:160px;
+            }
+            .Testimonials .carousel-indicators
+            {
+                position:static;
+                width:100%;
+                margin-left:auto;
+                padding-top:20px;
+            }
+            .Testimonials .carousel-indicators li
+            {
+                text-indent:0;
+                width:80px;
+                height:80px;
+                opacity:0.4;
+                border:3px solid #FFF;
+                border-radius:50%;
+                overflow:hidden;
+                margin:5px;
+                 transition:all 0.5s ease;
+            }
+            .Testimonials .carousel-indicators li.active
+            {
+                opacity:1;
+                background:none;
+            }
+            .Testimonials .carousel-indicators li img{
+                max-width:100%;
+            }
+
+        /*End Scetion Testimonials*/
+    </style>
+</head>
+<body>
+    <!--Start Section Testimonials-->
+    <section class="Testimonials text-center">
+        <!--Start Container-->
+        <div class="container">
+            <h1>What Our Clients Say</h1>
+            <!--Start Testimonials Carousel-->
+            <div id="carousel_testimonials" class="carousel slide" data-ride="carousel">
+               
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <p class="lead"> 01visitmaldives.info would be the most comprehensive online Guide to promote the Maldives.</p>
+                        <span>Ali Al-Rubaye</span>
+                    </div>
+
+                        <div class="item">
+                            <p class="lead">02visitmaldives.info would be the most comprehensive online Guide to promote the Maldives.</p>
+                            <span>Ali Al-Rubaye</span>
+                        </div>
+                        <div class="item">
+                            <p class="lead">03visitmaldives.info would be the most comprehensive online Guide to promote the Maldives.</p>
+                            <span>Ali Al-Rubaye</span>
+                        </div>
+                        <div class="item">
+                            <p class="lead">04visitmaldives.info would be the most comprehensive online Guide to promote the Maldives.</p>
+                            <span>Ali Al-Rubaye</span>
+                        </div>
+                    
+                </div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+                        <img src="../images_avatar/large_3206.png" alt="ben" />
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="1">
+                        <img src="../images_avatar/Opi51c74ead38850.png"alt="toto" /></li>
+                    <li data-target="#carousel_testimonials" data-slide-to="2">
+                        <img src="../images_avatar/large_3194.png" alt="bobo"/></li>
+                    <li data-target="#carousel_testimonials" data-slide-to="3">
+                        <img src="../images_avatar/large_3171.png" alt="soso" /></li>
+                </ol>
+        </div>
+        <!--End Testimonials Carousel-->
+        </div>
+        <!--End Container-->
+    </section>
+    <!--End Section Testimonials-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../scripts/jquery-2.2.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="../scripts/plugins.js"></script>
+</body>
+</html>
