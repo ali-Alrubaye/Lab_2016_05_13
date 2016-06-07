@@ -1,0 +1,52 @@
+﻿
+.tvwrapper{
+    margin: 1% auto;
+    width: 90%;
+    padding-left: 5%;
+    position:relative;
+}
+
+.tvcontainer{
+    z-index: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    width: 90%;
+    overflow:hidden;
+    margin-left: 0;
+}
+
+
+
+.tvcontainer iframe, .tvcontainer object, .tvcontainer embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+    height:100%;
+    float:left;
+}
+
+
+
+.tvoverlay{
+       position: absolute;
+    z-index: 1;
+    width: 102%;
+    height: 124%;
+    top: -10%;
+    left: -3%;
+    background: none !important;
+    pointer-events: none;
+}
+#videodisclaimer{
+        margin: 10% auto;
+        padding: 10%;
+        min-height: 300px;
+}
+
+.tven{
+    width:83%;
+}
+

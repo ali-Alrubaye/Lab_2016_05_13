@@ -141,6 +141,7 @@
     <Content Include="images_avatar\Opi51c74ead38850.png" />
     <Content Include="index.html" />
     <Content Include="media\Maldive3.mp4" />
+    <Content Include="media\tv.png" />
     <Content Include="media\vatten.mp3" />
     <Content Include="our_clients\ECutbildning.png" />
     <Content Include="packages.config" />
@@ -193,6 +194,7 @@
     <Content Include="style\defaultTheme.css" />
     <Content Include="style\Dreamphotos.css" />
     <Content Include="style\gams.css" />
+    <Content Include="style\media.css" />
     <Content Include="style\mediaQuery.css" />
     <Content Include="style\purpleTheme.css" />
     <Content Include="style\style.css" />
