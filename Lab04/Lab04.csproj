@@ -164,7 +164,7 @@
     <Content Include="pages\about.html" />
     <Content Include="pages\clients.html" />
     <Content Include="pages\contact.html" />
-    <Content Include="pages\dreamphotos.html" />
+    <Content Include="pages\add\dreamphotos.html" />
     <Content Include="pages\add\footer.html" />
     <Content Include="pages\add\price_table.html" />
     <Content Include="pages\add\team.html" />
