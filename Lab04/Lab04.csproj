@@ -170,6 +170,7 @@
     <Content Include="pages\add\team.html" />
     <Content Include="pages\add\Testimonials.html" />
     <Content Include="pages\game.html" />
+    <Content Include="pages\media.html" />
     <Content Include="pages\photo.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
